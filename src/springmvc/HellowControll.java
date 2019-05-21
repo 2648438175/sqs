@@ -10,6 +10,7 @@ public class HellowControll {
 	public ModelAndView hellow() {
 		ModelAndView mv=new ModelAndView();
 		System.out.println("pig");
+		System.out.println("mike");
 		mv.addObject("msg","hellow springmvc ");
 		mv.setViewName("/WEB-INF/jsp/hellow.jsp");
 		return mv;
