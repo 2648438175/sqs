@@ -18,6 +18,7 @@ public class ItemControll {
 		List<Item> items=Arrays.asList(new Item(1,"冰箱",999999,new Date(),"能吃的冰箱"),new Item(1,"洗衣机",666666,new Date(),"能跑的洗衣机"));
 		mv.addObject("itemlist",items);
 		mv.setViewName("item");
+		System.out.println("mike");
 		return mv;
 	}
 }
